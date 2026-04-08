@@ -1,0 +1,5 @@
+{
+    "company_overview.txt": ["about", "philosophy", "team", "agency", "overview", "who", "location"],
+    "faq.txt": ["questions", "turnaround", "time", "revisions", "cost", "price", "international", "faq", "help"],
+    "products.txt": ["services", "products", "package", "price", "retainer", "3d", "branding", "cost", "buy"]
+}
