@@ -6,7 +6,7 @@ An autonomous, context-aware AI system designed to act as a marketing representa
 
 - **Dual-Layered Context**: 
   - Keeps *User Knowledge* (their behaviors, preferences) and *Company Knowledge* (pricing, services, FAQs) strictly separated to avoid AI hallucinations.
-- **Mem0 Persistent Memory**: 
+- **Mem0 Persistent Memory**: .
   - As users talk, it remembers behavioral signals permanently against their ID without bloating the prompt.
 - **Blazing Fast RAG**: 
   - Loads flat `.txt` files directly into RAM at runtime and uses a highly optimized `metadata.json` keyword-mapping layer to bypass expensive chunk indexing.
