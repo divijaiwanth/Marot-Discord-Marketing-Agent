@@ -4,13 +4,16 @@ def build_prompt(knowledge: str, memory_str: str, message: str) -> str:
     """
     
     prompt = f"""
---- COMPANY KNOWLEDGE ---
+<company_knowledge>
 {knowledge}
+</company_knowledge>
 
---- USER MEMORY ---
+<user_memory>
 {memory_str}
+</user_memory>
 
---- USER MESSAGE ---
+<user_message>
 {message}
+</user_message>
 """
     return prompt.strip()

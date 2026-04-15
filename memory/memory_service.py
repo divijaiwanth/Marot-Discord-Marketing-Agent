@@ -3,11 +3,7 @@ from config import MEM0_API_KEY
 import logging
 
 # Initialize Mem0 Client safely
-if MEM0_API_KEY and MEM0_API_KEY != "your-mem0-api-key-here":
-    _client = MemoryClient(api_key=MEM0_API_KEY)
-else:
-    logging.warning("MEM0_API_KEY is not correctly set. Memory operations will fail.")
-    _client = None
+_client = MemoryClient(api_key=MEM0_API_KEY)
 
 def get_user_memory(user_id: str) -> str:
     """
